@@ -5,7 +5,15 @@ import { Platform, View, Text, TouchableOpacity, StyleSheet } from 'react-native
 import { ErrorBoundary, FallbackProps } from 'react-error-boundary';
 import { useFrameworkReady } from '@/hooks/useFrameworkReady';
 import { UserProvider } from '@/contexts/UserContext';
+import 'react-native-gesture-handler';
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { View, Text } from 'react-native';
+import { SUPABASE_URL, SUPABASE_ANON_KEY } from '@env';
+import { createClient } from '@supabase/supabase-js';
+import { Slot } from 'expo-router';
 
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 function ErrorFallback({ error, resetErrorBoundary }: FallbackProps) {
   // Never show error fallback on mobile devices
   if (Platform.OS === 'ios' || Platform.OS === 'android') {
