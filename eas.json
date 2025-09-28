@@ -1,41 +1,19 @@
 {
   "cli": {
-    "version": ">= 16.19.3",
     "appVersionSource": "remote"
   },
-<<<<<<< HEAD
   "build": {
-=======
-  
-"build": {
->>>>>>> f903313 (Fix ConfigError, update MainApplication.kt, and Gradle settings for APK build)
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
-    },
     "preview": {
-<<<<<<< HEAD
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease --stacktrace --debug"
+      },
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
-    }
-  },
-=======
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
-    },
-    "production": {
       "android": {
         "buildType": "apk"
       }
     }
-  },
-
->>>>>>> f903313 (Fix ConfigError, update MainApplication.kt, and Gradle settings for APK build)
-  "submit": {
-    "production": {}
   }
 }
