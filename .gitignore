@@ -175,3 +175,4 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 >>>>>>> 0967381 (Initial commit)
+.env 
