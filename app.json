@@ -3,7 +3,7 @@
     "name": "UK Driving Exam Test",
     "slug": "uk-driving-exam-test",
     "version": "1.0.0",
-    "sdkVersion": "54.0.10",
+    "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
