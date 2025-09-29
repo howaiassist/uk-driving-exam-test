@@ -9,11 +9,12 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "entryPoint": "node_modules/expo-router/entry",
     "updates": {
       "enabled": false,
       "checkAutomatically": "NEVER",
       "fallbackToCacheTimeout": 0,
-      "url": null,
+      "url": "https://u.expo.dev/a1b2c3d4-e5f6-7890-abcd-ef1234567890",
       "requestHeaders": {}
     },
     "assetBundlePatterns": [
@@ -28,6 +29,7 @@
     },
     "android": {
       "package": "com.howaiassist.drivingtest",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#FFFFFF"
