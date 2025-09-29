@@ -33,8 +33,6 @@
       }
     },
     "owner": "howaiassist",
-    "android": {
-      "package": "com.howaiassist.ukdrivingexamtest"
-    }
+    
   }
 }
