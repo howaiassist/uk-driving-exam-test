@@ -16,7 +16,6 @@
       "**/*"
     ],
     "platforms": [
-      "ios",
       "android"
     ],
     "web": {
