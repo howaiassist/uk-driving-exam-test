@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
@@ -8,6 +10,14 @@ import { Slot } from 'expo-router';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
+const App = () => {
+  return (
+    <View>
+      <Text>Hello, Expo!</Text>
+    </View>
+  );
+};
+
 export default function RootLayout() {
   return (
     <View style={{ flex: 1 }}>
@@ -16,3 +26,5 @@ export default function RootLayout() {
     </View>
   );
 }
+
+export default App;
