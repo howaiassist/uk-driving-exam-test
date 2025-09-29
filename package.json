@@ -54,7 +54,7 @@
     "@babel/core": "^7.25.2",
     "@babel/register": "^7.28.3",
     "@types/react": "~19.1.10",
-    "babel-preset-expo": "^9.0.0",
+    "babel-preset-expo": "~54.0.0",
     "react-native-dotenv": "^3.4.11",
     "typescript": "~5.9.2"
   }
