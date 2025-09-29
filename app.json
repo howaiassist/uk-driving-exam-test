@@ -5,11 +5,16 @@
     "version": "1.0.0",
     "sdkVersion": "54.0.0",
     "newArchEnabled": true,
+    "scheme": "ukdrivingexamtest",
     "extra": {
       "router": {},
       "eas": {
         "projectId": "7ff768cb-aeb3-4140-80cd-396ab5f5d34f"
       }
+    },
+    "android": {
+      "package": "com.howaiassist.drivingtest",
+      "versionCode": 1
     },
     "updates": {
       "enabled": false,
@@ -36,5 +41,6 @@
     "plugins": [
       "expo-router"
     ]
+
   }
 }
