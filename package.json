@@ -20,7 +20,7 @@
     "@react-navigation/native": "^7.0.14",
     "@supabase/supabase-js": "^2.57.4",
     "dotenv": "^17.2.2",
-    "expo": "~54.0.10",
+    "expo": "^54.0.10",
     "expo-blur": "~15.0.7",
     "expo-camera": "~17.0.8",
     "expo-constants": "~18.0.9",
@@ -54,6 +54,7 @@
     "@babel/core": "^7.25.2",
     "@babel/register": "^7.28.3",
     "@types/react": "~19.1.10",
+    "babel-preset-expo": "^9.0.0",
     "react-native-dotenv": "^3.4.11",
     "typescript": "~5.9.2"
   }
