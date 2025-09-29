@@ -6,11 +6,11 @@
     "sdkVersion": "54.0.0",
     "newArchEnabled": true,
     "extra": {
-          "router": {
-            "root": "app"
-          }
-        },
-    
+      "router": {},
+      "eas": {
+        "projectId": "7ff768cb-aeb3-4140-80cd-396ab5f5d34f"
+      }
+    },
     "updates": {
       "enabled": false,
       "checkAutomatically": "NEVER",
@@ -32,13 +32,6 @@
     "experiments": {
       "typedRoutes": true
     },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "7ff768cb-aeb3-4140-80cd-396ab5f5d34f"
-      }
-    },
     "owner": "howaiassist",
-    
   }
 }
