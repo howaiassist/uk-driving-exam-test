@@ -1,4 +1,4 @@
-package com.howaiassist.drivingtest
+package com.howaiassist.ukdrivingexamtest
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

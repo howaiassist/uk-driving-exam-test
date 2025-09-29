@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.howaiassist.drivingtest'
+    namespace 'com.howaiassist.ukdrivingexamtest'
     defaultConfig {
-        applicationId 'com.howaiassist.drivingtest'
+        applicationId 'com.howaiassist.ukdrivingexamtest'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

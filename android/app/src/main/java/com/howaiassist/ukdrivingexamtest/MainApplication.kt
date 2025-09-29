@@ -1,4 +1,4 @@
-package com.howaiassist.drivingtest
+package com.howaiassist.ukdrivingexamtest
 
 import android.app.Application
 import android.content.res.Configuration
