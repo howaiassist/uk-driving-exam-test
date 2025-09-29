@@ -6,10 +6,9 @@
     "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "ukdrivingexamtest",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "entryPoint": "node_modules/expo-router/entry",
     "updates": {
       "enabled": false,
       "checkAutomatically": "NEVER",
