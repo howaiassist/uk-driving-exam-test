@@ -1,30 +1,24 @@
-require('dotenv').config();
-
-import 'react-native-gesture-handler';
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { View, Text } from 'react-native';
-import { SUPABASE_URL, SUPABASE_ANON_KEY } from '@env';
-import { createClient } from '@supabase/supabase-js';
-import { Slot } from 'expo-router';
-
-const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
-const App = () => {
-  return (
-    <View>
-      <Text>Hello, Expo!</Text>
-    </View>
-  );
-};
-
-export default function RootLayout() {
-  return (
-    <View style={{ flex: 1 }}>
-      <Slot />
-      <StatusBar style="auto" />
-    </View>
-  );
+{
+  "expo": {
+    "name": "UK Driving Exam Test",
+    "slug": "uk-driving-exam-test",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "android": {
+      "package": "com.howaiassist.drivingtest",
+      "versionCode": 1
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "ukdrivingexamtest",
+    "updates": {
+      "url": "https://u.expo.dev/a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-camera",
+      "expo-screen-capture"
+    ]
+  }
 }
-
-export default App;

@@ -8,11 +8,25 @@
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease --stacktrace --debug"
       },
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "EXPO_ROUTER_APP_ROOT": "app",
+        "EXPO_ROUTER_IMPORT_MODE": "sync",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://bnbuufaltdgyzhbopkhy.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJuYnV1ZmFsdGRneXpoYm9wa2h5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1NzU5MzcsImV4cCI6MjA3NDE1MTkzN30.GTf8qXKOAMdhTG3EHYsnmyrsmMFSSpc9keT2Ab4FrwA",
+        "ANOTHER_VARIABLE": "value"
+      }
     },
     "production": {
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "env": {
+          "EXPO_ROUTER_APP_ROOT": "app",
+          "EXPO_ROUTER_IMPORT_MODE": "sync",
+          "EXPO_PUBLIC_SUPABASE_URL": "https://bnbuufaltdgyzhbopkhy.supabase.co",
+          "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJuYnV1ZmFsdGRneXpoYm9wa2h5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg1NzU5MzcsImV4cCI6MjA3NDE1MTkzN30.GTf8qXKOAMdhTG3EHYsnmyrsmMFSSpc9keT2Ab4FrwA",
+          "ANOTHER_VARIABLE": "value"
+        }
       }
     }
   }
